@@ -4,6 +4,7 @@ import HeroSection from './Components/HeroSection';
 import ServiceSection from './Components/ServiceSection';
 import HeaderSection from './Components/HeaderSection';
 import SliderSection from './Components/SliderSection';
+import AboutSection from './Components/AboutSection';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeaderSection />
       <SliderSection />
       <ServiceSection />
+      <AboutSection />
     </div>
   );
 }
