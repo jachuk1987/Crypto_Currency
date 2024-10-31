@@ -7,6 +7,7 @@ import SliderSection from './Components/SliderSection';
 import AboutSection from './Components/AboutSection';
 import WhySection from './Components/WhySection';
 import TeamSection from './Components/TeamSection';
+import ClientSection from './Components/ClientSection';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <AboutSection />
       <WhySection />
       <TeamSection />
+      <ClientSection />
     </div>
   );
 }
