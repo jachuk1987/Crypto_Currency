@@ -64,6 +64,6 @@ class ClientSection extends Component {
       </div>
     );
   }
-}
+};
 
 export default ClientSection;
