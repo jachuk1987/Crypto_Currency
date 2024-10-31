@@ -5,6 +5,8 @@ import ServiceSection from './Components/ServiceSection';
 import HeaderSection from './Components/HeaderSection';
 import SliderSection from './Components/SliderSection';
 import AboutSection from './Components/AboutSection';
+import WhySection from './Components/WhySection';
+import TeamSection from './Components/TeamSection';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <SliderSection />
       <ServiceSection />
       <AboutSection />
+      <WhySection />
+      <TeamSection />
     </div>
   );
 }
