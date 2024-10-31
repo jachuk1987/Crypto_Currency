@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class HeroBackground extends Component {
+class HeroSection extends Component {
   render() {
     return (
       <div className="hero_bg_box">
@@ -12,4 +12,4 @@ class HeroBackground extends Component {
   }
 }
 
-export default HeroBackground;
+export default HeroSection;
