@@ -8,6 +8,7 @@ import AboutSection from './Components/AboutSection';
 import WhySection from './Components/WhySection';
 import TeamSection from './Components/TeamSection';
 import ClientSection from './Components/ClientSection';
+import InfoSection from './Components/InfoSection';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <WhySection />
       <TeamSection />
       <ClientSection />
+      <InfoSection />
     </div>
   );
 }
