@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import img1 from '../images/w1.png';
+import img2 from '../images/w2.png';
+import img3 from '../images/w3.png';
+import img4 from '../images/w4.png';
 
 class WhySection extends Component {
   render() {
@@ -13,7 +17,7 @@ class WhySection extends Component {
           <div className="why_container">
             <div className="box">
               <div className="img-box">
-                <img src="images/w1.png" alt="Expert Management" />
+                <img src={img1} alt="Expert Management" />
               </div>
               <div className="detail-box">
                 <h5>Expert Management</h5>
@@ -25,7 +29,7 @@ class WhySection extends Component {
             </div>
             <div className="box">
               <div className="img-box">
-                <img src="images/w2.png" alt="Secure Investment" />
+                <img src={img2} alt="Secure Investment" />
               </div>
               <div className="detail-box">
                 <h5>Secure Investment</h5>
@@ -37,7 +41,7 @@ class WhySection extends Component {
             </div>
             <div className="box">
               <div className="img-box">
-                <img src="images/w3.png" alt="Instant Trading" />
+                <img src={img3} alt="Instant Trading" />
               </div>
               <div className="detail-box">
                 <h5>Instant Trading</h5>
@@ -49,7 +53,7 @@ class WhySection extends Component {
             </div>
             <div className="box">
               <div className="img-box">
-                <img src="images/w4.png" alt="Happy Customers" />
+                <img src={img4} alt="Happy Customers" />
               </div>
               <div className="detail-box">
                 <h5>Happy Customers</h5>

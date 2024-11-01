@@ -66,4 +66,4 @@ class ClientSection extends Component {
   }
 };
 
-export default ClientSection;
+export default ClientSection;  

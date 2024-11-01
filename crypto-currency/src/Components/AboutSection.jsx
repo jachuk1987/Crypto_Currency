@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import aboutImg from '../images/about-img.png';
 
 class AboutSection extends Component {
   render() {
@@ -16,7 +17,7 @@ class AboutSection extends Component {
           <div className="row">
             <div className="col-md-6">
               <div className="img-box">
-                <img src="images/about-img.png" alt="About Us" />
+                <img src={aboutImg} alt="About Us" />
               </div>
             </div>
             <div className="col-md-6">

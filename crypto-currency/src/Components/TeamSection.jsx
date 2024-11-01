@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import team1 from '../images/team-1.jpg';
+import team2 from '../images/team-2.jpg';
+import team3 from '../images/team-3.jpg';
+import team4 from '../images/team-4.jpg';
 
 class TeamSection extends Component {
   render() {
@@ -13,26 +17,10 @@ class TeamSection extends Component {
 
           <div className="team_container">
             <div className="row">
-              {this.renderTeamMember(
-                "images/team-1.jpg",
-                "Joseph Brown",
-                "Marketing Head"
-              )}
-              {this.renderTeamMember(
-                "images/team-2.jpg",
-                "Nancy White",
-                "Marketing Head"
-              )}
-              {this.renderTeamMember(
-                "images/team-3.jpg",
-                "Earl Martinez",
-                "Marketing Head"
-              )}
-              {this.renderTeamMember(
-                "images/team-4.jpg",
-                "Josephine Allard",
-                "Marketing Head"
-              )}
+              {this.renderTeamMember(team1, "Joseph Brown", "Marketing Head")}
+              {this.renderTeamMember(team2, "Nancy White", "Marketing Head")}
+              {this.renderTeamMember(team3, "Earl Martinez", "Marketing Head")}
+              {this.renderTeamMember(team4, "Josephine Allard", "Marketing Head")}
             </div>
           </div>
         </div>
