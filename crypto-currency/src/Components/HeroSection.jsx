@@ -6,7 +6,7 @@ class HeroBackground extends Component {
     return (
       <div className="hero_bg_box">
         <div className="bg_img_box">
-          <img src={heroBg} alt="Hero Background" />
+          <img src={heroBg} alt="" />
         </div>
       </div>
     );
