@@ -1,13 +1,15 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.css'
+
 import HeroSection from './Components/HeroSection';
 import ServiceSection from './Components/ServiceSection';
 import AboutSection from './Components/AboutSection';
-import WhySection from './Components/WhySection';
+import WhyChooseUs from './Components/WhyChooseUs';
 import TeamSection from './Components/TeamSection';
-import ClientSection from './Components/ClientSection';
+import ClientSection from './Components/CllientSection';
 import InfoSection from './Components/InfoSection';
 import FooterSection from './Components/FooterSection';
+
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
       <HeroSection />
       <ServiceSection />
       <AboutSection />
-      <WhySection />
+      <WhyChooseUs />
       <TeamSection />
       <ClientSection />
       <InfoSection />
